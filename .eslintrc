@@ -1,0 +1,10 @@
+{
+  "plugins": ["mocha", "graphql"],
+  "extends": ["eslint:recommended", "airbnb-base"],
+  "rules": {
+    "mocha/no-exclusive-tests": "error"
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
