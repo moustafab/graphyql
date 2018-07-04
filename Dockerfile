@@ -12,6 +12,8 @@ RUN npm run build
 FROM node:carbon-alpine
 
 ENV HOME=/opt/graphyql
+ENV DEVELOPMENT=false
+ENV LOG_LEVEL=0
 
 WORKDIR ${HOME}
 
