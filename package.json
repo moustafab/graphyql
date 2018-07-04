@@ -1,0 +1,24 @@
+{
+  "name": "graphyql",
+  "version": "0.0.1",
+  "description": "sample graphql app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moustafab/graphyql.git"
+  },
+  "author": "Moustafa Baiou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moustafab/graphyql/issues"
+  },
+  "homepage": "https://github.com/moustafab/graphyql#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  }
+}
