@@ -16,7 +16,7 @@
     "url": "git+https://github.com/moustafab/graphyql.git"
   },
   "author": "Moustafa Baiou",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/moustafab/graphyql/issues"
   },
