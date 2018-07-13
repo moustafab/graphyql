@@ -12,8 +12,8 @@
 
 ## Docker Image
 
-1. `docker -t <IMAGENAME> build .` to build and tag the image
-2. `docker -P run <IMAGENAME>` to run the image and map a random host port to the exposed container port (4000)
+1. `docker build -t <IMAGENAME> .` to build and tag the image
+2. `docker run -P <IMAGENAME>` to run the image and map a random host port to the exposed container port (4000)
 
 ## Testing
 
